@@ -27,7 +27,6 @@ body .attribution {
 }
 
 .main_container {
-  background-color: white;
   width: 30rem;
   height: 31rem;
   border-radius: 15px;
@@ -40,7 +39,7 @@ body .attribution {
 .main_container .hero_container {
   width: 100%;
   height: 75%;
-  background: url(../images/bg-pattern-card.svg), white;
+  background: url(../images/bg-pattern-card.svg), hsl(0deg, 0%, 100%);
   background-repeat: no-repeat;
   background-size: 100% 50%;
   background-position-y: top;
@@ -52,7 +51,7 @@ body .attribution {
 .main_container .hero_container .hero_img {
   border-radius: 50%;
   overflow: hidden;
-  border: 7px solid white;
+  border: 7px solid hsl(0deg, 0%, 100%);
   width: 9rem;
   height: 9rem;
 }
@@ -85,6 +84,7 @@ body .attribution {
 .main_container .info_container {
   width: 100%;
   height: 25%;
+  background-color: hsl(0deg, 0%, 100%);
   border-top: 1px solid hsl(0deg, 0%, 59%);
   display: flex;
   align-items: center;

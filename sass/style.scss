@@ -8,6 +8,7 @@
     $color-txt-h: hsl(229, 23%, 23%);
     $color-txt-p: hsl(227, 10%, 46%);
     $color-bkg-sec: hsl(0, 0%, 59%);
+    $color-bkg-card: hsl(0, 0%, 100%);
 
 *{
     margin: 0;
@@ -33,7 +34,6 @@ body{
     }
 }
 .main_container{
-    background-color: white;
     width: 30rem;
     height: 31rem;
     border-radius: 15px;
@@ -45,7 +45,7 @@ body{
     .hero_container{
         width: 100%;
         height: 75%;
-        background: url(../images/bg-pattern-card.svg), white;
+        background: url(../images/bg-pattern-card.svg), $color-bkg-card;
         background-repeat: no-repeat;
         background-size: 100% 50%;
         background-position-y: top;
@@ -56,7 +56,7 @@ body{
         .hero_img{
             border-radius: 50%;
             overflow: hidden;
-            border: 7px solid white;
+            border: 7px solid $color-bkg-card;
             width: 9rem;
             height: 9rem;
             img{
@@ -90,6 +90,7 @@ body{
     .info_container{
         width: 100%;
         height: 25%;
+        background-color: $color-bkg-card;
         border-top: 1px solid $color-bkg-sec;
         display: flex;
         align-items: center;
